@@ -33,8 +33,8 @@ class MyUITestUITests: XCTestCase {
         XCTAssertEqual(XCUIApplication().staticTexts["MyLabel"].label, "OFF")
         
         XCUIApplication().switches["0"].tap()
-//        XCTAssertEqual(XCUIApplication().staticTexts["MyLabel"].label, "OFF")
-        XCTAssertEqual(XCUIApplication().staticTexts["MyLabel"].label, "ON")
+        XCTAssertEqual(XCUIApplication().staticTexts["MyLabel"].label, "OFF")
+//        XCTAssertEqual(XCUIApplication().staticTexts["MyLabel"].label, "ON")
         
 //        if let mySwitchValue:String = (XCUIApplication().switches["MySwitch"].value as? String) {
 //            if mySwitchValue == "0" {
